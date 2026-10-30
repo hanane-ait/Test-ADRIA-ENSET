@@ -1,9 +1,11 @@
-package Service;
+package ma.enset.adria.accountservice1.Service;
 
 import ma.enset.adria.accountservice1.DTO.AccountResponse;
 import ma.enset.adria.accountservice1.DTO.CreateAccountRequest;
 import ma.enset.adria.accountservice1.Entities.Account;
 import ma.enset.adria.accountservice1.Entities.AccountStatus;
+import ma.enset.adria.accountservice1.Exception.AccountBlockedException;
+import ma.enset.adria.accountservice1.Exception.AccountNotFoundException;
 import ma.enset.adria.accountservice1.Repository.AccountRepository;
 
 import org.springframework.stereotype.Service;

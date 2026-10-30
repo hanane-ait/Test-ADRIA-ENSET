@@ -1,5 +1,4 @@
-package Service;
-
+package ma.enset.adria.accountservice1.Service;
 import ma.enset.adria.accountservice1.DTO.AccountResponse;
 import ma.enset.adria.accountservice1.DTO.CreateAccountRequest;
 import ma.enset.adria.accountservice1.Entities.AccountStatus;
